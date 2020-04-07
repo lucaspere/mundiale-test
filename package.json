@@ -1,0 +1,9 @@
+{
+  "name": "mundiale-test",
+  "version": "1.0.0",
+  "description": "projeto para o teste da vaga front-end na Mundiale",
+  "main": "index.js",
+  "repository": "https://github.com/lucaspere/mundiale-test.git",
+  "author": "Lucas Pereira (lucaspere)",
+  "license": "MIT"
+}
