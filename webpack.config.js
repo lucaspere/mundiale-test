@@ -7,7 +7,7 @@ module.exports = {
       filename: 'bundle.js'
    },
    mode: 'development',
-   modules: {
+   module: {
       rules: [{
          loader: 'babel-loader',
          test: /\.jsx?$/,
