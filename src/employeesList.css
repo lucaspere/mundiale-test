@@ -3,9 +3,45 @@
    background: linear-gradient(var(--blue), var(--green));
 }
 
-img {
+#logo {
    max-width: 100%;
    height: auto;
+}
+
+.tab_plus {
+   width: 50px;
+   height: 50px;
+   align-self: center;
+}
+
+hr {
+   color: #757575;
+   margin: 5px
+}
+
+.avatar {
+   margin: -2px;
+   width: 100px;
+   height: auto;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+
+.emploInfo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin: 0 auto;
+}
+
+.emploInfo p{
+   margin: 0;
+   color: #858585;
+   font-weight: 500;
+}
+
+.emploInfo p:nth-child(2) {
+   font-size: 14px;
 }
 
 .employees_list {
@@ -17,9 +53,9 @@ img {
 ul li {
    position: relative;
 }
+
 .content_list {
    display: flex;
-   background-color: #fff;
    border: 2px solid rgb(129,216,223, 0.55);
    border-radius: 10px;
    margin: 15px 15px 15px 20px; 
