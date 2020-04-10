@@ -5,7 +5,7 @@
 Passo 01) - 
 - Clone este repositório. Faça isso com o seguinte comando:
 ```
-> git clone https://github.com/lucaspere/githubapp.git
+> git clone https://github.com/lucaspere/mundiale-test.git
 ```
 **ou**
 - Baixe o arquivo no botão **Verde**, ***Clone or Donwload***. Selecione a opção: ***Download ZIP***
