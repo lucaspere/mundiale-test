@@ -15,38 +15,34 @@ header {
    height: 157px;
 }
 
-header nav {
-   position: relative;
-}
-
 header nav ul {
    padding: 0;
    margin: 0;
 }
 
-.dude {
+.d {
    position: absolute;
-   top: 14px;
+   top: 90px;
    text-decoration: none;
    font-size: var(--large-size);
    color: #dadada;
-   left: -80px;
+   left: 90px;
    opacity: 0.5
 }
 
 .e {
    position: absolute;
-   top: 14px;
+   top: 90px;
    text-decoration: none;
    font-size: var(--large-size);
    color: #dadada;
-   left: 80px;
+   left: 270px;
    opacity: 0.5
 }
 
 .isSelected {
    font-weight: 500;
-   left: -2px;
+   left: 178px;
    opacity: 1;
 }
 

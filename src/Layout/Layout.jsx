@@ -9,7 +9,7 @@ const Layout = (props) => {
          <header >
             <nav>
                <ul>
-                  <NavLink to="/d" className="dude" activeClassName="isSelected">
+                  <NavLink to="/d" className="d" activeClassName="isSelected">
                      D
                      </NavLink>
                      <NavLink to="e" className="e" activeClassName="isSelected">

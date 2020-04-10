@@ -1,7 +1,7 @@
 import React from 'react';
 
 import EmployeesList from './EmployeesList.jsx';
-import {data} from '../data/data.js';
+import {data} from '../../data/data.js';
 
 const ELetter = () => {
 

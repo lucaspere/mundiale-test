@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './employeesList.css';
-import tab_plus from '../public/images/Tab_plus.svg'
+import tab_plus from '../../public/images/Tab_plus.svg'
 
 const EmployeesList = (props) => {
    const { employeeName, role, avatar, teleNumbers, email, qrCode } = props.employeeData;
