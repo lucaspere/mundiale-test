@@ -3,10 +3,10 @@ import React from 'react';
 import EmployeesList from './EmployeesList.jsx';
 import {data} from '../../data/data.js';
 
-const DLetter = () => {
+const DLetter = (props) => {
 
    return (
-      <EmployeesList employeeData={data[0]} />
+      <EmployeesList employeeData={data[0]} {...props}/>
    )
 }
 

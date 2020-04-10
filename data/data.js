@@ -9,8 +9,8 @@ export const data = [
       role: "Diretor de inovação",
       avatar: daniel,
       teleNumbers: [
-         '31|9.0000-0000',
-         '31|0101-0101'
+         '31 | 9.0000-0000',
+         '31 | 0101-0101'
       ],
       email: 'daniel.evangelista@mundiale.com.br',
    },
@@ -20,8 +20,8 @@ export const data = [
       role: "UX Designer",
       avatar: eduardo ,
       teleNumbers: [
-         '31|9.9147-8701',
-         '31|2138-2020'
+         '31 | 9.9147-8701',
+         '31 | 2138-2020'
       ],
       email: 'eduardo.viana@mundiale.com.br',
    },

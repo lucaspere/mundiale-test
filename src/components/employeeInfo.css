@@ -1,0 +1,79 @@
+.image_container {
+   margin: 0 auto;
+   width: max-content;
+}
+
+.button_container {
+   width: 30px;
+   border: 2px solid #3d4b5e;
+   border-radius: 50%;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 5px;
+   cursor: pointer;
+}
+.modal_avatar {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+}
+
+.emploInfo_modal {
+   color: #eee;
+   text-align: center;
+   margin: -18px auto 30px;
+}
+
+.emploInfo_modal p {
+   font-size: var(--medium-size);
+   font-weight: 500;
+   margin-bottom: 0;
+}
+
+.emploInfo_modal p:nth-child(2) {
+   font-size: var(--normal-size);
+   margin: 5px;
+}
+
+.card_container {
+   color: #eee;
+   width: 300px;
+   height: 150px;
+   background-color: #3d4b5e;
+   margin: 0 auto;
+   border-radius: 15px;
+}
+
+.subCard_container {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+hr {
+   height: 65px;
+   align-self: center;
+   color: #3d4b5e
+}
+
+.phone_info {
+   font-size: 15px;
+}
+
+.employee_email {
+   text-align: center;
+   margin: 0;
+   margin-top: 9px;
+}
+
+.line_container {
+   margin-top: 10px;
+   width: 100%;
+}
+
+.qrCode_container {
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
