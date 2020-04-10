@@ -1,36 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import "./styles/styles.scss";
-import "../node_modules/normalize.css/normalize.css";
+import Layout from './layout/Layout.jsx';
 
-const Layout = (props) => {
-
-   const style = {
-      layout: {
-         backgroundColor: 'black',
-      }
-   }
-
-   return (
-      <div style={style.layout}>
-         {props.children}
-      </div>
-   )
-}
-
-const Teste = () => (
-   <div>
-      oi Lucas
-   </div>
-)
+import "./app.css";
 
 const app = (
-   <div>
-      <Layout>
-         <Teste />
-      </Layout>
-   </div>
+   <Layout>
+      <div className="list_container">
+         <ul className="employees_list">
+            <li>
+               <div className="content_list">
+                  oi
+               </div>
+            </li>
+            <li>
+               <div className="content_list">
+                  oi
+               </div>
+            </li>
+            <li>
+               <div className="content_list">
+                  oi
+               </div>
+            </li>
+            <li>
+               <div className="content_list">
+                  oi
+               </div>
+            </li>
+         </ul>
+      </div>
+   </Layout>
 )
 
 ReactDOM.render(app, document.getElementById("root"))

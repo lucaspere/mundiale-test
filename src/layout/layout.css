@@ -1,0 +1,38 @@
+.container {
+   height: 100vh;
+   background: linear-gradient(var(--blue), var(--green));
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+.employees_list {
+   position: relative;
+   padding-left: 10px;
+   list-style: none;
+}
+
+ul li {
+   position: relative;
+}
+.content_list {
+   display: flex;
+   background-color: #fff;
+   border: 2px solid rgb(129,216,223, 0.55);
+   border-radius: 10px;
+   margin: 15px 15px 15px 20px; 
+   height: 80px;
+}
+
+.content_list::before {
+   content: "";
+   background-color: rgb(129,216,223, 0.55);
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   position: absolute;
+   top: 35px;
+   left: 0;
+}

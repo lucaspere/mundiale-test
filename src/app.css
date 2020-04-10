@@ -1,0 +1,31 @@
+:root{
+
+   font-family: 'Roboto', sans-serif;
+   height: 100%;
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+   --dark-blue: #007faf;
+   --blue: #00a3d3;
+   --light-blue: #81d8df;
+   --dark-green: #618425;
+   --green: #729e33;
+   --light-green: #8ac543;
+   --normal-size: 16px;
+   --medium-size: 24px;
+   --large-size: 32px;
+}
+
+body {
+   box-sizing: border-box;
+   margin: 0;
+   min-height: 100%;
+}
+
+a {
+   background-color: transparent;
+   -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+   outline-width: 0;
+ }
