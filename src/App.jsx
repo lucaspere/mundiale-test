@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import Modal from 'react-modal';
 
 import Routes from './Routes.jsx'
 
 import "./app.css";
 
-const app = (
+Modal.setAppElement("#root");
+
+export const app = (
    <BrowserRouter>
       <Routes />
    </BrowserRouter>

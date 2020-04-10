@@ -7,7 +7,6 @@ import qrCode from '../../public/images/qrCode.png'
 import './employeeInfo.css';
 
 const EmployeeInfo = (props) => {
-   console.log(props)
    return (
       <div>
          <div onClick={props.closeModal} className="button_container">
