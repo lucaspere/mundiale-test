@@ -1,0 +1,57 @@
+.layout_container {
+   height: 100vh;
+   background: linear-gradient(var(--blue), var(--green));
+}
+
+header {
+   background-image: url('../../public/images/Group-174.svg');
+   background-repeat: no-repeat;
+   background-size: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 100%;
+   height: 157px;
+}
+
+header nav {
+   position: relative;
+}
+
+header nav ul {
+   padding: 0;
+   margin: 0;
+}
+
+.dude {
+   position: absolute;
+   top: 14px;
+   text-decoration: none;
+   font-size: var(--large-size);
+   color: #dadada;
+   left: -80px;
+   opacity: 0.5
+}
+
+.e {
+   position: absolute;
+   top: 14px;
+   text-decoration: none;
+   font-size: var(--large-size);
+   color: #dadada;
+   left: 80px;
+   opacity: 0.5
+}
+
+.isSelected {
+   font-weight: 500;
+   left: -2px;
+   opacity: 1;
+}
+
+
+#logo {
+   max-width: 100%;
+   height: auto;
+}
