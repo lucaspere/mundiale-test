@@ -8,7 +8,7 @@ Passo 01) -
 > git clone https://github.com/lucaspere/githubapp.git
 ```
 **ou**
-- Baixe o arquivo no botão **Verde**, Clone ou Donwload. Selecione a opção: Download ZIP
+- Baixe o arquivo no botão **Verde**, ***Clone or Donwload***. Selecione a opção: ***Download ZIP***
 
 Passo 02) Clonagem terminado ou terminado o donwload, você consegue iniciar o projeto usando o comando:
 ```
