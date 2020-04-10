@@ -28,6 +28,7 @@ module.exports = {
 
    devtool: 'cheap-module-aval-source-map',
    devServer: {
+      historyApiFallback: true,
       open: true,
       contentBase: path.join(__dirname, 'public'),
    }

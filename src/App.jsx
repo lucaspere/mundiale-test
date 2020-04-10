@@ -1,27 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Slider from 'react-slick'
+import { BrowserRouter } from 'react-router-dom';
 
-import EmployeesList from './EmployeesList.jsx';
-import { data } from '../data/data';
+import Routes from './Routes.jsx'
 
 import "./app.css";
 
-const settings = {
-   dots: true,
-   infinite: true,
-   arrows: false,
-   speed: 500,
-   slidesToShow: 1,
-   slidesToScroll: 1,
-}
-
 const app = (
-   <div>
-      <EmployeesList employeeData={data[0]} />
-      <EmployeesList employeeData={data[1]} />
-   </div>
+   <BrowserRouter>
+      <Routes />
+   </BrowserRouter>
 
 )
-
 ReactDOM.render(app, document.getElementById("root"))
