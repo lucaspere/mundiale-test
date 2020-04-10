@@ -10,7 +10,11 @@ Passo 01) -
 **ou**
 - Baixe o arquivo no botão **Verde**, ***Clone or Donwload***. Selecione a opção: ***Download ZIP***
 
-Passo 02) Clonagem terminado ou terminado o donwload, você consegue iniciar o projeto usando o comando:
+Passo 02) Clonagem terminada ou o donwload, instale as dependências com o comando:
+```
+> npm install
+```
+Passo 03) Instalação completada, você consegue iniciar o projeto usando o comando:
 ```
 > npm start
 ```
